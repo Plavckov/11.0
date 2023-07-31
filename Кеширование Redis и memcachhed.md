@@ -16,7 +16,9 @@
 
 Установите и запустите memcached.
 
-Ответ:
+Ответ: 
+
+set KEY VALUE EXP(in seconds)
 
 ![image](https://github.com/Plavckov/11.0/assets/130914025/40a160d9-2371-4d35-81c9-f681b611b4d1)
 
