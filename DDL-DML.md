@@ -40,6 +40,12 @@ mysql -u sys_test -p sakila < sakila-data.sql
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
 
 
+![image](https://github.com/Plavckov/11.0/assets/130914025/971fd372-6b4c-4351-a517-9883e256dce4)
+![image](https://github.com/Plavckov/11.0/assets/130914025/5da83037-64f7-4f6e-bc11-65aff54b583e)
+![image](https://github.com/Plavckov/11.0/assets/130914025/5ee35891-7451-48fa-8495-f9b305fa3a63)
+
+
+
 ### Задание 2
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
 ```
@@ -61,3 +67,5 @@ where tab.table_schema = 'sakila'
   and tab.table_type = 'BASE TABLE'
 order by tab.table_name;
 ```
+
+![image](https://github.com/Plavckov/11.0/assets/130914025/d0c43850-98b5-49c4-9389-2cfe091696cc)
